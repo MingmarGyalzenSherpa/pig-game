@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato';
+    box-sizing: border-box;
+    line-height: 2;
+    text-transform: uppercase;
+    
+}
+
+/* BODY */
+body{
+    
+    background: url(background.jpg) center center no-repeat;
+    background-size: cover; 
+}
+
+
+/* CONTAINER */
+.container{
+    background: white;
+    width:80%;
+    height: 95vh;
+    margin:0 auto;
+    /* border: 1px solid red; */
+    font-size: 16px;
+}
+
+/* Player */
+.player{
+    padding-top:50px;
+    
+    /* border:1px solid green; */
+    text-align: center;
+    width:50%;
+    height:100%;
+    font-weight: 100;
+    float: left;
+}
+
+/* NAME */
+.name{
+    color: #555;
+    font-size:3rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+/* TOTALSCORE */
+.totalScore{
+    /* border: 1px solid blue; */
+    font-size:6rem;
+    color:F4847E;
+}
+
+/* CURRENT */
+.current{
+
+    /* border:1px solid red; */
+    margin: 30px auto;
+    width: 30%;
+    height:20%;
+    font-size:18px;
+    font-weight: bold;
+    background-color: F4847E;
+}
+
+.current-score-0, .current-score-1 {
+    margin-top: 0;
+    /* border: 1px solid pink; */
+    font-size:2rem; 
+    font-weight:1;
+    color:#fff;
+}
+
+/* button */
+button{
+    position: absolute;
+    width:200px;
+    left:41%;
+    color: #555;
+    background: none;
+    border: none;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-new-game{
+    top:10%;
+}
+
+.btn-roll-game{
+    top:55%;
+}
+
+.btn-hold-game{
+    top:70%;
+}
+
+button:focus{
+    outline:none;
+}
+
+button:hover{
+    font-weight:bold;
+}
+
+button:hover i{
+    margin-right:20px;
+}
+
+i{
+    color:red;
+    display: inline-block;
+    margin-top: -4px;
+    margin-right: 15px;
+    vertical-align: text-top;
+    transition: margin 0.3s;
+    font-size: 32px;
+}
+
+/* IMAGE */
+img{
+
+    /* border: 1px solid red; */
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    height:20%;
+    top: 30%;
+    box-shadow: 0px 10px 60px rgba(0,0,0,0.2);
+}
+
+/* ACTIVE */
+.active { background-color: #f7f7f7; }
+.active .name { font-weight: 300;
+    color:red; }
+
+.player span{
+    display: none;
+}
