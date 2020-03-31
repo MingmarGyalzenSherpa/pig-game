@@ -177,3 +177,36 @@ i{
 }
 
 }
+
+@media only screen and (max-width: 519px)
+{
+    .current{
+        font-size: 8px;
+        width:50%;
+    }
+
+    .totalScore{
+        font-size: 80px;
+    }
+
+    .btn-new-game{
+        top:15%;
+    }
+
+    .btn-hold-game{
+        top:80%;
+        
+    }
+    .dice{
+        top:40%;
+    }
+    .btn-roll-game{
+        top:70%;
+    }
+
+    .btn-new-game, .btn-hold-game, .btn-roll-game{
+        left:36%;
+    }
+
+}
+
