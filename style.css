@@ -143,3 +143,37 @@ img{
 .player span{
     display: none;
 }
+
+/* MOBILE */
+@media only screen  and (max-width: 768px){
+
+.name{
+    color: pink;
+    font-size: 16px;
+
+}
+
+.current{
+    font-size:10px;
+}
+
+button{
+    width:100px;
+    font-size:12px;
+}
+
+i{
+    font-size: 11px;
+    vertical-align: baseline;
+    margin-right: 5px;
+}
+
+.dice{
+    height:10%;
+}
+
+.btn-new-game{
+    top:20%;
+}
+
+}
